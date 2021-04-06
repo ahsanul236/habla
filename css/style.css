@@ -1,0 +1,90 @@
+body {
+    background: url(/img/background.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+#container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0 0;
+    border-bottom: 1px solid white;
+}
+nav{
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: yellow;
+    text-shadow: 0 1px 9px #333;
+}
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+section {
+    text-align: center;
+    margin: auto ;
+}
+
+section h1 {
+    margin-bottom: 130px;
+}
+section h1 em {
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+}
+
+a#button {
+    display: block;
+    background: url(/img/button-background.png);
+    background-size: cover;
+    width: 305px;
+    height: 86px;
+    margin: 0 auto;
+    color: black;
+    font-size: 18px;
+    line-height: 86px;
+}
+
+a#button:hover {
+    color:white;
+    text-shadow: 0 1px 5px #333;
+}
+
+a#button:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 150px auto 20px;
+}

@@ -1,0 +1,81 @@
+#container {
+    background: #96a3a2;
+}
+
+#transform {
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    font-family: Halvedica, serif;
+    font-size: 18px;
+    background: url(images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#transform h1 {
+    text-align: center;
+    margin: 10px auto;
+    color: #ededb4;
+    
+}
+#transform h1:hover {
+    color: #19e6d1;
+    transition: all 2s;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+ #box1, #box2, #box3 {
+     position: relative;
+    height: 50px;
+    width: 150px;
+     margin: auto 30px;
+    background: rgba(0,0,0,0.3);
+     color: #ededb4;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+     display: inline-block;
+
+
+}
+
+#box1:hover {
+    background: url(images/Fb.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 170px;
+    border-radius: 30px;
+    color: #6a9ef7;
+    transition: all 1s;
+}
+
+#box2:hover {
+    background: url(images/Gmail.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    border-radius: 30px;
+    color: #45ff4b;
+    transition: all 1s;
+}
+
+#box3:hover {
+    background: url(images/youtube.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 135px;
+    border-radius: 30px;
+    color: #e63030;
+    transition: all 1s;
+}
+
+
+    
